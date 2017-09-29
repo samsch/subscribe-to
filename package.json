@@ -1,6 +1,6 @@
 {
   "name": "@samsch/subscribe-to",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A React Higher-order Component which subscribes to a props to update on changes.",
   "main": "lib/subscribeTo.js",
   "scripts": {
