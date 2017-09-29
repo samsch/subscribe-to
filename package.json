@@ -1,0 +1,41 @@
+{
+  "name": "@samsch/subscribe-to",
+  "version": "0.0.0",
+  "description": "A React Higher-order Component which subscribes to a props to update on changes.",
+  "main": "lib/subscribeTo.js",
+  "scripts": {
+    "build": "rm -rf lib && babel -d lib/ src/ --ignore spec.js,test.js",
+    "prepublishOnly": "npm run build",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:samsch/subscribe-to.git"
+  },
+  "keywords": [
+    "store",
+    "react",
+    "samsch",
+    "subscribe"
+  ],
+  "author": "Samuel Scheiderich",
+  "homepage": "https://github.com/samsch/subscribe-to",
+  "license": "0BSD",
+  "peerDependencies": {
+    "react": "^16.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^7.2.3",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1",
+    "eslint": "^4.7.1",
+    "eslint-config-prettier": "^2.5.0",
+    "eslint-plugin-prettier": "^2.3.1",
+    "eslint-plugin-react": "^7.3.0",
+    "jest": "^21.1.0",
+    "prettier": "^1.7.0",
+    "react": "^15.6.1",
+    "react-test-renderer": "^15.6.1"
+  }
+}

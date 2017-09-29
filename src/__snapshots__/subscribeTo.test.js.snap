@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`subscribeTo subscribes component to updates from given store 1`] = `
+<span>
+  Data: 
+  0
+</span>
+`;
+
+exports[`subscribeTo subscribes component to updates from given store 2`] = `
+<span>
+  Data: 
+  1
+</span>
+`;
